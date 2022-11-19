@@ -1,0 +1,152 @@
+body {
+    background-image: url("back.png");
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header a {
+    display: inline;
+    font-size: 6rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+.obrazek img{
+    width: 10%;
+    height: 10%;
+}
+
+.obrazek p {
+    font-weight: 500;
+    font-size: 120%;
+}
+
+.skinki img{
+	width: 4%;
+	margin-left:2%;
+	margin-right:2% ;
+	margin-bottom: 0%;
+}
+.raffle-roller {
+    	height: 100px;
+    	position: relative;
+    	margin: 60px auto 30px auto;
+    	width: 900px;
+}
+.raffle-roller-holder {
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	right: 0;
+    	bottom: 0;
+    	height: 100px;
+    	width: 100%;
+}
+.raffle-roller-holder {
+    	overflow: hidden;
+    	border-radius: 2px;
+	border: 1px solid #3c3759;
+}
+.raffle-roller-holder {
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	right: 0;
+    	bottom: 0;
+    	height: 100px;
+    	width: 100%;
+}
+.raffle-roller-container {
+    	width: 9999999999999999999px;
+    	max-width: 999999999999999999px;
+    	height: 100px;
+    	background: #191726;
+    	margin-left: 0;
+    	transition: all 8s cubic-bezier(.08,.6,0,1);
+}
+.raffle-roller-holder:before {
+	content: "";
+	position: absolute;
+	border: none;
+	z-index: 12222225;
+	width: 5px;
+	height: 100%;
+	left: 50%;
+	background: #d16266;
+}
+.item {
+	display: block;
+    float: left;
+	margin: 4px 0px 0.5px 5px;
+    width: 85px;
+	height: 88px;
+	border: 1px solid #70677c;
+	background: #14202b;
+	background-size: 100%;
+   	background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.class_red_item {
+	border-bottom: 4px solid #EB4B4B;
+    font-size: .7em;
+}
+.class_yellow_item {
+	border-bottom: 4px solid #fffb00;
+    font-size: .7em;
+}
+.class_pink_item {
+	border-bottom: 4px solid #c903a8;
+    font-size: .7em;
+}
+.class_blue_item {
+	border-bottom: 4px solid #0f01db;
+    font-size: .7em;
+}
+.class_fiolet_item {
+	border-bottom: 4px solid #8917e6;
+    font-size: .7em;
+}
+img {
+	border: 0;
+	vertical-align: middle;
+}
+.winning-item {
+	position: relative;
+	top: -1px;
+}
+.inventory {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+	margin: 0 auto;
+	width: 960px;
+	max-width: 953px;
+	padding: 10px 15px 6px;
+	height: auto;
+	border: 2px solid #1c3344;
+	background: #0e1a23;
+}
+.inventory > .item {
+	float: none;
+	cursor: pointer;
+	margin: 4px 2px 0.5px 2px;
+}
+.inventory > .item:hover {
+	background-size: 90%;
+	background-color: #182a38;
+}
+.inventory > .item:active {
+	height: 83px;
+	width: 80px;
+	position: relative;
+	top: -2px;
+	border: 2px solid #356d27;
+	border-bottom: 4px solid #356d27;
+}

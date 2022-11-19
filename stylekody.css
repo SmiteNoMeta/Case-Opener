@@ -1,0 +1,35 @@
+body {
+    background-image: url("back.png");
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header a {
+    display: inline;
+    font-size: 6rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+.profil {
+    margin-left: 70%;
+}
+
+header h2 {
+    font-size: 300%;
+}
+
+
+main {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+}

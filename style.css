@@ -1,0 +1,43 @@
+body {
+    background-image: url("back.png");
+    color: white;
+    font-family: Helvetica;
+}
+
+header {
+    margin-top: 10vw;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 11rem;
+}
+
+.rejestr {
+    text-align: center;
+    line-height: 150%;
+    font-size: larger;
+}
+
+.calosc {
+    margin-top: 12vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    font-family: fantasy;
+    font-size: 2rem;
+    background-color: white;
+    color: black;
+    border: 0.4em solid black;
+    padding: 2rem;
+    border-radius: 2vh;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 12vw;
+    font-size: 1.25vh;
+    text-align: center;
+}
